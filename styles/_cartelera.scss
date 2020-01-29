@@ -1,0 +1,23 @@
+.container_cartelera{
+    max-width: 1330px;
+    margin: auto;
+
+    h2{
+        font-size: 1.5rem;
+        font-family: verdana;
+        padding: 20px 0;
+    }
+
+
+    .img{
+        display: grid;
+        grid-template-columns:  repeat(4, 1fr);
+        grid-gap: 20px;
+    }
+   
+    img{
+        width: 100%;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+}

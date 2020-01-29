@@ -1,0 +1,57 @@
+
+header{
+    background: rgb(65, 65, 65);
+    padding: 15px 0;
+}
+
+.logo{
+    display: flex;
+   
+    &:hover{
+        .plus{
+            transform: rotate(180deg);
+        }
+    }
+   
+}
+
+
+.header_container{
+    max-width: 1330px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content:space-between ;
+    
+    h1{
+        color: rgb(255, 255, 255);
+        padding-left: 15px;
+        transition: .3s;
+        border-radius: 18px;
+
+       
+    }
+
+    ul{
+        display: flex;
+    }
+
+    li{
+        list-style:none;
+    }
+
+    a{
+        text-decoration: none;
+        padding: 0 15px;
+        font-family: verdana;
+        color: rgb(134, 134, 134);
+        transition: .3s  ease ;
+
+        &:hover{
+            color: white;
+           border-bottom: 2px solid rgb(0, 116, 136); 
+           
+           
+        }
+    }
+}

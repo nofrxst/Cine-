@@ -5,6 +5,8 @@
     height: 500px;
     margin: auto; 
     overflow: hidden;
+    position: relative;
+    
    
     ul{
         display: flex;
@@ -12,15 +14,54 @@
         width: 400%;
         animation: cambio 20s infinite;
         animation-direction: alternate;
+        
     }
     li{
         width: 100%;
         list-style: none;
     }
+
     img{
         width: 100%;
-    
+        
+        object-fit: cover;
+      
+
     }
+
+    .img1{
+        background-image: url('/image/img1.jpg');
+        background-attachment: fixed;
+        background-size: cover;
+        height: 500px;
+        width: 100%;
+
+    }
+    .img2{
+        background-image: url('/image/img2.png');
+        background-attachment: fixed;
+        background-size: cover;
+        height:  500px;
+        width: 100%;
+
+    }
+    .img3{
+        background-image: url('/image/img3.jpg');
+        background-attachment: fixed;
+        background-size: cover;
+        height:  500px;
+        width: 100%;
+
+    }
+    .img4{
+        background-image: url('/image/img4.jpg');
+        background-attachment: fixed;
+        background-size: cover;
+        height:  500px;
+        width: 100%;
+
+    }
+   
 }
 
 

@@ -8,8 +8,14 @@ h1 {
   font-family: verdana;
 }
 
+h2 {
+  font-family: verdana;
+  padding-left: 1rem;
+  font-size: 1.5rem;
+}
+
 main {
-  background: #cacaca;
+  background: #dfdede;
 }
 
 header {
@@ -72,6 +78,7 @@ header {
 .header_container a:hover {
   color: white;
   border-bottom: 2px solid #007488;
+  text-shadow: 0 0 5px white;
 }
 
 .slider {
@@ -79,6 +86,7 @@ header {
   height: 500px;
   margin: auto;
   overflow: hidden;
+  position: relative;
 }
 
 .slider ul {
@@ -99,6 +107,40 @@ header {
 }
 
 .slider img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.slider .img1 {
+  background-image: url("/image/img1.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  height: 500px;
+  width: 100%;
+}
+
+.slider .img2 {
+  background-image: url("/image/img2.png");
+  background-attachment: fixed;
+  background-size: cover;
+  height: 500px;
+  width: 100%;
+}
+
+.slider .img3 {
+  background-image: url("/image/img3.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  height: 500px;
+  width: 100%;
+}
+
+.slider .img4 {
+  background-image: url("/image/img4.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  height: 500px;
   width: 100%;
 }
 
@@ -156,23 +198,30 @@ header {
   }
 }
 
+.cartelera {
+  border-bottom: 1px solid #727272;
+}
+
 .container_cartelera {
   max-width: 1330px;
   margin: auto;
+  padding: 20px 0;
 }
 
 .container_cartelera h2 {
   font-size: 1.5rem;
   font-family: verdana;
-  padding: 20px 0;
+  text-align: center;
+  padding-bottom: 1rem;
 }
 
-.container_cartelera .img {
+.container_cartelera .figure {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (1fr)[4];
       grid-template-columns: repeat(4, 1fr);
   grid-gap: 20px;
+  padding: 0 15px;
 }
 
 .container_cartelera img {
@@ -180,5 +229,39 @@ header {
   -o-object-fit: cover;
      object-fit: cover;
   border-radius: 10px;
+}
+
+footer {
+  background: #888888;
+}
+
+.container_footer {
+  max-width: 1330px;
+  margin: auto;
+  padding: 20px 0;
+}
+
+.container_footer p {
+  text-align: center;
+  color: white;
+  font-family: verdana;
+  font-size: 1rem;
+}
+
+.about {
+  height: 500px;
+  border-bottom: 1px solid #7e7d7d;
+}
+
+.container_about {
+  max-width: 1330px;
+  margin: auto;
+  padding-top: 100px;
+}
+
+.container_about p {
+  font-family: verdana;
+  text-align: justify;
+  padding: 40px 100px;
 }
 /*# sourceMappingURL=index.css.map */

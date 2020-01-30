@@ -1,18 +1,25 @@
+.cartelera{
+    border-bottom: 1px solid rgb(114, 114, 114);
+}
 .container_cartelera{
     max-width: 1330px;
     margin: auto;
+    padding: 20px 0;
+    
 
     h2{
         font-size: 1.5rem;
         font-family: verdana;
-        padding: 20px 0;
+        text-align: center;
+        padding-bottom: 1rem;
     }
 
 
-    .img{
+    .figure{
         display: grid;
         grid-template-columns:  repeat(4, 1fr);
         grid-gap: 20px;
+        padding: 0 15px;
     }
    
     img{

@@ -21,10 +21,55 @@
         grid-gap: 20px;
         padding: 0 15px;
     }
-   
+    
+    .image-box {
+        
+        margin: auto;
+        overflow: hidden;
+       
+    }
+    .image-box img {
+        max-width: 100%;
+        transition: all 2.0s;
+        display: block;
+        width: 100%;
+        height: auto;
+        transform: scale(1);
+    }
+    
+    .image-box:hover img {
+        transform: scale(1.5);
+    }
+    
     img{
         width: 100%;
         object-fit: cover;
         border-radius: 10px;
     }
 }
+
+
+
+@media (max-width:600px){
+
+    .container_cartelera{
+        max-width: 1330px;
+        margin: auto;
+        padding: 20px 0;
+        
+    
+       
+    
+    
+        .figure{
+            display: grid;
+            grid-template-columns:  repeat(1, 1fr);
+            grid-gap: 20px;
+            padding: 0 15px;
+
+        }
+    }    
+
+}
+
+
